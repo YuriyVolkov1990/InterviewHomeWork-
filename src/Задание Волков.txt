@@ -1,0 +1,6 @@
+int[] array = {8,7,6,5};
+for (int i = 0; i < array.lenght/2;i++) {
+int a = array[i];
+array[i] = array[array.lenght - i - 1];
+array[array.leght-i-1] = a;
+}
